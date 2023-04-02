@@ -21,3 +21,7 @@
 # "Nice! You were born in approximately 2013."
 
 p "How old are you?"
+age = gets.to_i
+current_year = Time.new.year
+birth_year = current_year - age
+p "Nice! You were born in approximately " + birth_year.to_s + "."
